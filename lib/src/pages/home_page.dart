@@ -525,6 +525,7 @@ class HomePage extends StatelessWidget {
             children: <Widget>[
               _header(context),
               SizedBox(height: 20),
+              Text("MEHRAN APP RELEASE"),
               _categoryRow("Featured", LightColor.orange, LightColor.orange),
               _featuredRowA(context),
               SizedBox(height: 0),
